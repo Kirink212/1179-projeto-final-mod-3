@@ -20,9 +20,9 @@ export default class CardComponent {
             <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Adicionar ao carrinho">
               <i class="fa fa-cart-plus" aria-hidden="true"></i>
             </button>
-            <button type="button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Editar item">
+            <a href="/update-pizza.html?id=${novaPizza.id}" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Editar item">
               <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-            </button>
+            </a>
             <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Remover item" data-bs-toggle="modal" data-bs-target="#deleteModal">
               <i class="fa fa-trash" aria-hidden="true"></i>
             </button>

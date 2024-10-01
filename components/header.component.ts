@@ -20,7 +20,7 @@ export default class HeaderComponent {
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active" href="cadastro.html">Cadastrar Novo Item</a>
+                        <a class="nav-link active" href="add-pizza.html">Cadastrar Nova Pizza</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="sobre.html">Sobre nós</a>
